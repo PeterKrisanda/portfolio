@@ -1,0 +1,7 @@
+:host >>> .footer{
+  background: rgb(42, 42, 42);
+  border: none;
+  width: 100%;
+  height: 100%;
+  min-height: 60px; /* 75px by malo byt pravdepodobne */
+}
