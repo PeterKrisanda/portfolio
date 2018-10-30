@@ -4,4 +4,48 @@
 
 :host >>> .ui-menubar{
   text-align: center;
+  border: none;
+  outline: 0;
+  background: #474747;
+  border-radius: 0;
 }
+
+:host >>> .ui-menuitem-text{
+  background: #474747;
+  color: #fff;
+  border: none;
+}
+
+:host >>> .ui-menuitem-text:hover{
+  /*background: #6b6b6b !important;*/
+  border-bottom: 1px solid white;
+}
+:host >>> .ui-menuitem-text:active{
+  /*background: #6b6b6b !important;*/
+  border-bottom: 1px solid white;
+}
+
+:host >>> .menuStyle a:hover{
+  border:none !important;
+  outline: 0 !important;
+}
+
+:host >>> .menuStyle a:not(.ui-state-highlight):hover{
+  border:none !important;
+  outline: 0 !important;
+  border-bottom: 1px solid white;
+}
+
+:host >>> .menuStyle a:visited{
+  border:none !important;
+  outline: 0 !important;
+  background: #474747 !important;
+}
+
+
+/* - v icb tak mam
+menuStyle a:not(.ui-state-highlight):hover
+.menuStyle a:visited
+.menuStyle a
+.menuStyle a:focus-within
+*/
