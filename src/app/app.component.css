@@ -3,16 +3,23 @@ html{
   margin: 0;
   border: none;
   outline: none;
+  
 }
 
 :host >>> body{
   border: 0;
   outline: 0;
   margin: 0;
+
 }
 
 :host >>> .appContent{
-  min-height: calc(100vh - 75px);
+  min-height: calc(100vh - 60px);
   border: none;
   outline: none;
+  background: #f1f1f1;
+}
+
+:host >>> .backgroundStyle{
+  background: #f1f1f1 !important;
 }

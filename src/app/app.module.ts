@@ -15,6 +15,10 @@ import {MenubarModule} from 'primeng/menubar';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BrandbarComponent } from './brandbar/brandbar.component';
+import {PanelModule} from 'primeng/panel';
+import {CardModule} from 'primeng/card';
+import {InputTextModule} from 'primeng/inputtext';
+import {InputTextareaModule} from 'primeng/inputtextarea';
 
 @NgModule({
   declarations: [
@@ -33,7 +37,11 @@ import { BrandbarComponent } from './brandbar/brandbar.component';
     //BrowserAnimationsModule,
     ButtonModule,
     MenubarModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardModule,
+    InputTextModule,
+    InputTextareaModule,
+    PanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]

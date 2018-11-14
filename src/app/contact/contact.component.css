@@ -1,0 +1,83 @@
+:host >>> .container{
+  background: #f1f1f1 !important;
+}
+
+:host >>> h1{
+  text-align: center;
+}
+
+:host >>> .inputsStyle{
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+:host >>> .textareaStyle{
+  width: 100%;
+}
+
+:host >>> .minWidthStyle{
+  min-width: 60px;
+}
+
+:host >>> .ui-inputtext{
+  height: 100%;
+  outline: 0;
+  border-color: #e6e6e6;
+
+}
+
+:host >>> .ui-inputtext:hover{
+  outline: 0;
+  border-color: #b8b8b8;
+}
+
+:host >>> .contactButtonStyle{
+  text-align: center;
+}
+
+:host >>> .iconsAlignStyle{
+  position: relative;
+  left: 10%;
+  -webkit-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  transform: translateX(10%);
+}
+
+:host >>> .verticalAlign {
+  position: relative;
+  top: 25%;
+  -webkit-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  transform: translateY(25%);
+  text-align: center;
+}
+
+:host >>> .iconsStyle{
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 0.5em;
+}
+
+:host >>> button{
+  background: #e3e3e3;
+  color: #6b6b6b;
+  border-color: #6b6b6b;
+}
+
+:host >>> .ui-button:hover{
+  background: #dad6d6;
+  color: #6b6b6b;
+  border-color: #6b6b6b;
+}
+
+:host >>> .ui-button:active{
+  background: #dad6d6;
+  color: #6b6b6b;
+  border-color: #6b6b6b;
+}
+
+:host >>> .ui-button:focus{
+  background: #dad6d6;
+  color: #6b6b6b;
+  border-color: #6b6b6b;
+}

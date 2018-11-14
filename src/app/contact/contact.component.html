@@ -1,3 +1,65 @@
-<p>
-  contact works!
-</p>
+<div class="container">
+
+  <div class="ui-g">
+    <div class="ui-g-12">
+        <h1>Contact Me</h1>
+    </div>
+  </div>
+
+  <div class="ui-g">
+    <div class="ui-g-2"></div>
+
+    <div class="ui-g-4">
+      <!--GitHub Icon, LinkedIn <br>-->
+      <div class="ui-g verticalAlign">
+        <div class="iconsAlignStyle">
+          <a href="contact">
+            <img class="iconsStyle" src="assets/img/icons/github.svg" alt="GitHub">
+          </a>
+          <a href="contact">
+            <img class="iconsStyle" src="assets/img/icons/linkedin.png" alt="LinkedIn">
+          </a>
+        </div>
+      </div>
+
+      <div class="ui-g verticalAlign">
+        <div class="contactText">
+            Do you whant know more ? <br>
+            Contact ME !
+        </div>
+      </div>
+
+    </div>
+
+    <div class="ui-g-4">
+      <div class="ui-g inputsStyle">
+        <div class="ui-g-4 ui-sm-12 minWidthStyle">
+          Meno:
+        </div>
+        <input type="text" pInputText class="ui-g-8 ui-sm-12" />
+      </div>
+
+      <div class="ui-g inputsStyle">
+
+        <div class="ui-g-4 ui-sm-12 minWidthStyle">
+          Email:
+        </div>
+        <input type="text" pInputText class="ui-g-8 ui-sm-12" />
+      </div>
+        <!--
+          spravit aby auto size pre textarea fungovalo tak žeby sa dalo miškou pretiahnut velkosť ,
+          ale len na určitu vzdialenosť.
+         -->
+        <div class="ui-g inputsStyle">
+          <textarea [rows]="8" pInputTextarea class="textareaStyle"></textarea>
+        </div>
+        <div class="ui-g contactButtonStyle">
+
+          <p-button class="ui-g-12" label="Contact Me"></p-button>
+        </div>
+
+    </div>
+
+    <div class="ui-g-2"></div>
+  </div>
+</div>

@@ -16,3 +16,7 @@
   -ms-transform: translateY(100%);
   transform: translateY(100%);
 }
+
+:host >>> .borderStyle{
+  padding: 0;
+}

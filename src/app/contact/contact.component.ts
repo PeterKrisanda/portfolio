@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  isEnglish: boolean;
+
   constructor() { }
 
   ngOnInit() {
+    this.isEnglish = true;
   }
+
+
 
 }

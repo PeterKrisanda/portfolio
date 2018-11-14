@@ -1,3 +1,29 @@
-<p>
-  about works!
-</p>
+<div class="container ui-g">
+  <div class="ui-g-2"></div>
+
+  <div class="ui-g-8">
+    <h1>About me</h1>
+
+    <div class="myFoto">
+      <div class="imgOverlay"></div>
+      <img class="myFotoStyle" src="assets/img/about/my-foto.jpg" alt="My Foto">
+    </div>
+
+    <div class="textAbout">
+      <ng-template
+        *ngIf="isEnglish;then showInEnglish; else showInSlovak">
+      </ng-template>
+      <ng-template #showInEnglish>
+        English text about me! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu tincidunt nisl, at condimentum justo. Quisque sed purus eget nibh sollicitudin porta ultricies et purus. Suspendisse volutpat mauris nec metus congue, congue venenatis ipsum hendrerit. Donec tincidunt tellus in est molestie pretium eu semper nibh. Sed vitae leo nec eros blandit tempus. Suspendisse id lectus quis magna eleifend sodales. Mauris laoreet semper magna non pretium.
+
+      </ng-template>
+      <ng-template #showInSlovak>
+        Slovensky text o mne!
+      </ng-template>
+    </div>
+
+  </div>
+
+  <div class="ui-g-2"></div>
+
+</div>

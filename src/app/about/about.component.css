@@ -1,0 +1,24 @@
+/*:host >>> .backgroundStyle{
+  background: #f1f1f1 !important;
+}*/
+
+:host >>> h1{
+  text-align: center;
+}
+
+:host >>> .myFoto{
+  text-align: center;
+}
+
+:host >>> img.myFotoStyle{
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  border: 0.3em solid #e3e3e3;
+}
+
+
+:host >>> .textAbout{
+  text-align: justify;
+  margin-top: 1em;
+}
