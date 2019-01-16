@@ -19,6 +19,8 @@ import {PanelModule} from 'primeng/panel';
 import {CardModule} from 'primeng/card';
 import {InputTextModule} from 'primeng/inputtext';
 import {InputTextareaModule} from 'primeng/inputtextarea';
+import {CarouselModule} from 'primeng/carousel';
+import {TabMenuModule} from 'primeng/tabmenu';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
     CardModule,
     InputTextModule,
     InputTextareaModule,
-    PanelModule
+    PanelModule,
+    TabMenuModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

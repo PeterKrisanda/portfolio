@@ -1,3 +1,27 @@
 :host >>> .container{
   background: #f1f1f1 !important;
 }
+
+:host >>> h1{
+  text-align: center;
+}
+
+:host >>> .ui-tabmenu{
+  border:none;
+}
+
+:host >>> .ui-tabmenu-nav{
+  background: #f1f1f1;
+  border:none;
+  border-bottom: solid 1px #6b6b6b;
+  outline: 0;
+}
+
+:host >>> .ui-tabmenuitem{
+  background: #e3e3e3;
+  border: solid 1px #6b6b6b;
+}
+
+:host >>> .ui-menuitem-text{
+  color: #474747;
+}

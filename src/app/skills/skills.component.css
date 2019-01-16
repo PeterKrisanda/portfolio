@@ -1,3 +1,44 @@
 :host >>> .container{
   background: #f1f1f1 !important;
 }
+
+:host >>> h1{
+  text-align: center;
+}
+
+:host >>> .ui-carousel-header{
+  //background: #b8b8b8;
+  background: #6b6b6b;
+  border: 0;
+}
+
+:host >>> .ui-carousel{
+  border: 0;
+  background: #e3e3e3;
+}
+
+:host >>> .ui-carousel-item{
+  //border: 1px solid #e3e3e3;
+  border: 0;
+  height: 18em;
+}
+
+:host >>> .iconsStyle{
+  width: 7em;
+  height: 7em;
+}
+
+:host >>> .descStyle{
+  height: 5em;
+  text-align: justify;
+}
+
+:host >>> .nameStyle{
+  text-align: center;
+}
+
+
+/*
+:host >>> .skillItemStyle{
+  height: 18em;
+}*/

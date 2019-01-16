@@ -1,3 +1,23 @@
-<div class="container ui-g-12">
-  skills works!
+<div class="container">
+
+  <div class="ui-g-2"></div>
+  <div class="ui-g-8">
+    <h1>Skills</h1>
+
+    <p-carousel [value]="skills" numVisible="3" breakpoint="1100">
+      <ng-template let-skill  pTemplate="item">
+        <div class="ui-g skillItemStyle">
+          <div class="ui-g-12 nameStyle"><b>{{skill.name}}</b></div>
+          <div class="ui-g-12 nameStyle"><img class="iconsStyle" src="assets/img/icons/{{skill.file}}" alt="Angular"></div>
+          <div class="ui-g-12 descStyle">{{skill.description}}</div>
+          <div class="ui-g-12 levelStyle">Level: {{skill.level}}</div>
+        </div>
+
+      </ng-template>
+    </p-carousel>
+
+  </div>
+
+  <div class="ui-g-2"></div>
+
 </div>
