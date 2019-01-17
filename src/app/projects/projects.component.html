@@ -6,11 +6,24 @@
      <p-tabMenu [model]="projectsMenus" [activeItem]="activeItem"></p-tabMenu>
     <!--<p-tabMenu #menuItems [model]="projects" [activeItem]="activeItem" (click)="activateMenu()"></p-tabMenu>-->
       <div class="ui-g">
-        daco {{activeItem.label}} {{activeItemIndex}} <br>
-          {{selectedName}} <br>
-          {{selectedDescription}}
+        <div class="ui-g-2"></div>
+        <div class="ui-g-8 projectTextStyle">
+          <h3>{{activeItem.label}} </h3>
+          {{selectedDescription}}<br>
+        </div>
+        <div class="ui-g-2"></div>
       </div>
-      konec
+
+      <div class="ui-g">
+        <div class="ui-g-2"></div>
+        <div class="ui-g-8 projectTextStyle">
+          <p-galleria [images]="images" [showCaption]="false"
+          [transitionInterval]="8000" [showFilmstrip]="false"
+          [panelWidth]="auto"
+          ></p-galleria>
+        </div>
+        <div class="ui-g-2"></div>
+      </div>
 
   </div>
   <div class="ui-g-2"></div>

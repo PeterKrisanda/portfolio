@@ -21,6 +21,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {CarouselModule} from 'primeng/carousel';
 import {TabMenuModule} from 'primeng/tabmenu';
+import {GalleriaModule} from 'primeng/galleria';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {TabMenuModule} from 'primeng/tabmenu';
     InputTextareaModule,
     PanelModule,
     TabMenuModule,
-    CarouselModule
+    CarouselModule,
+    GalleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

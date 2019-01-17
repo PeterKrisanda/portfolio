@@ -25,3 +25,195 @@
 :host >>> .ui-menuitem-text{
   color: #474747;
 }
+
+:host >>> .projectTextStyle{
+  text-align: center !important;
+}
+
+:host >>> .ui-panel-images {
+   width: 100%;
+   height: 100%;
+}
+
+:host >>> .ui-galleria-panel {
+   width: 100%;
+   height: 100%;
+}
+
+:host >>> .ui-galleria {
+   width: 100%;
+   height: 100%;
+}
+:host >>> .ui-galleria-panel-wrapper {
+   width: 100%;
+   height: 100%;
+}
+
+/*next is responsive to primeng galleria because dont exist in defailt*/
+
+@media (min-width: 0px) and (max-width: 500px) {
+  :host >>> .ui-panel-images {
+     width: 100%;
+     height: 30%;
+  }
+
+  :host >>> .ui-galleria-panel {
+     width: 100%;
+     height: 30%;
+  }
+
+  :host >>> .ui-galleria {
+     width: 100%;
+     height: 30%;
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+     width: 100%;
+     height: 30%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 730px) {
+  :host >>> .ui-panel-images {
+     width: 100%;
+     height: 50%;
+  }
+
+  :host >>> .ui-galleria-panel {
+     width: 100%;
+     height: 50%;
+  }
+
+  :host >>> .ui-galleria {
+     width: 100%;
+     height: 50%;
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+     width: 100%;
+     height: 50%;
+  }
+}
+
+@media (min-width: 731px) and (max-width: 900px) {
+  :host >>> .ui-panel-images {
+     width: 100%;
+     height: 75%;
+  }
+
+  :host >>> .ui-galleria-panel {
+     width: 100%;
+     height: 75%;
+  }
+
+  :host >>> .ui-galleria {
+     width: 100%;
+     height: 75%;
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+     width: 100%;
+     height: 75%;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1400px){
+  :host >>> .ui-panel-images {
+     width: 400px !important;
+     height: 300px;
+  }
+
+  :host >>> .ui-galleria-panel {
+    width: 400px !important;
+    height: 300px;
+  }
+
+  :host >>> .ui-galleria {
+    width: 400px !important;
+    height: 300px;
+    position: relative;
+    left: 10%;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%);
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+    width: 400px !important;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1800px){
+  :host >>> .ui-panel-images {
+     width: 480px !important;
+     height: 360px;
+  }
+
+  :host >>> .ui-galleria-panel {
+    width: 480px !important;
+    height: 360px;
+  }
+
+  :host >>> .ui-galleria {
+    width: 480px !important;
+    height: 360px;
+    position: relative;
+    left: 10%;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%);
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+    width: 480px !important;
+    height: 360px;
+  }
+}
+
+@media (min-width: 2001px){
+  :host >>> .ui-panel-images {
+     width: 633px !important;
+     height: 475px;
+  }
+
+  :host >>> .ui-galleria-panel {
+    width: 633px !important;
+    height: 475px;
+  }
+
+  :host >>> .ui-galleria {
+    width: 633px !important;
+    height: 475px;
+    position: relative;
+    left: 10%;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%);
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+    width: 633px !important;
+    height: 475px;
+  }
+}
+
+@media (min-width: 1801px) and (max-width: 2000px){
+  :host >>> .ui-panel-images {
+     width: 576px !important;
+     height: 432px;
+  }
+
+  :host >>> .ui-galleria-panel {
+    width: 576px !important;
+    height: 432px;
+  }
+
+  :host >>> .ui-galleria {
+    width: 576px !important;
+    height: 432px;
+    position: relative;
+    left: 10%;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%);
+  }
+  :host >>> .ui-galleria-panel-wrapper {
+    width: 576px !important;
+    height: 432px;
+  }
+}
